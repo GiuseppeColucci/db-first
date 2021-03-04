@@ -1,0 +1,28 @@
+datatabase=>concessionaria!
+
+auto usate
+
+auto_id                           | pk
+
+marca_auto                        | 1       VARCHAR         NOTNULL
+cilindrata_auto                   | 2       MEDIUNTEXT      NOTNULL   
+motore_auto                       | 3       MEDIUNTEXT      NOTNULL
+cavalli_auto                      | 4       MEDIUNTEXT      NOTNULL
+tipo_auto                         | 5       VARCHAR         NOTNULL
+targa_auto                        | 6       TINYINT         NOTNULL     UNIQE
+proptrietari_auto                 | 7       TEXT            NOTNULL
+km_auto                           | 8       TINYINT         NOTNULL
+grandezza_bagagliaio_auto         | 9       TINYINT         NULL
+immatricolazione_auto             | 10      DATE            NOTNULL
+provenienza_auto                  | 11      TINYINT         NULL         
+condizioni_auto                   | 12      MEDIUNTEXT      NULL                  
+tagliandi_auto                    | 13      TINYINT         NOTNULL                     
+danni_auto                        | 14      TINYINT         NULL
+modifiche_auto                    | 15      TINYINT         NULL
+finestrini_eletrici_auto          | 16      TINYINT         NULL   
+fari_auto                         | 17      MEDIUNTEXT      NULL
+interni_auto                      | 18      MEDIUNTEXT      NULL
+sistema_audio_auto                | 20      MEDIUNTEXT      NULL
+
+
+
